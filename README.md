@@ -1,5 +1,7 @@
 # Pipeline-project
 
+<img src=https://github.com/ireneisdoomed/Pipeline-project/blob/master/header.jpg alt="200" width="850"/>
+
 This is a data analysis pipeline project to know on which platform you can find your next movie from an existing database enriched with data from other sources;and to provide recommendations accordingly.
 
 ## Input
