@@ -68,10 +68,10 @@ def whereisit(title):
     if df[(df["Title"] == title) & (df["Netflix"] == True)].iloc[0].get("Netflix"):
         return "You can stream this movie on Netflix."
     
-    if df[(df["Title"] == "John Carter") & (df["Netflix"] == True)].iloc[0].get("HBO"):
+    if df[(df["Title"] == title) & (df["Netflix"] == True)].iloc[0].get("HBO"):
         return "You can stream this movie on HBO."
     
-    if df[(df["Title"] == "John Carter") & (df["Netflix"] == True)].iloc[0].get("Amazon Prime"):
+    if df[(df["Title"] == title) & (df["Netflix"] == True)].iloc[0].get("Amazon Prime"):
         return "You can stream this movie on Amazon Prime."
 
 def theRating(title):
